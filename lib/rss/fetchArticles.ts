@@ -24,7 +24,6 @@ export async function fetchArticlesFromRSS() {
           },
         });
       } catch (error) {
-        // Bỏ qua nếu đã tồn tại
         if (
           error instanceof Error &&
           error.message.includes("Unique constraint failed")
