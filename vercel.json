@@ -1,9 +1,0 @@
-{
-    "schedule": [
-      {
-        "path": "/api/rss",
-        "cron": "0 * * * *" 
-      }
-    ]
-  }
-  
