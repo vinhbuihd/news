@@ -1,9 +1,9 @@
 {
-    "functions": {
-      "api/rss/route.ts": {
-        "runtime": "edge",
-        "schedule": "1 * * * *"
+    "schedule": [
+      {
+        "path": "/api/rss",
+        "cron": "0 * * * *" 
       }
-    }
+    ]
   }
   

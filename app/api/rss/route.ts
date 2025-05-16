@@ -1,5 +1,5 @@
 // app/api/rss/route.ts
-import { fetchArticlesFromRSS } from "@/lib/rss/fetchArticles"; // bạn tự viết hàm này
+import { fetchArticlesFromRSS } from "@/lib/rss/fetchArticles";
 import { NextResponse } from "next/server";
 
 export const runtime = "edge"; // yêu cầu với scheduled function
