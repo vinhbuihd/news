@@ -2,7 +2,7 @@
 import { fetchArticlesFromRSS } from "@/lib/rss/fetchArticles";
 import { NextResponse } from "next/server";
 
-export const runtime = "edge"; // yêu cầu với scheduled function
+export const runtime = "nodejs";
 export const revalidate = 0;
 
 export async function GET() {
